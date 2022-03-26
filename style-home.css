@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a.link-home{
+    text-decoration: none;
+    background: -webkit-linear-gradient(120deg, #D16BA5, #86A8E7, #5FFBF1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link-insta{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.8rem;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(120deg,gray, black, gray);
+}
+main{
+    padding: 2vw;
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+p{
+    padding: 1vw;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    max-width: 300px;
+}
+.foto-perfil{
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #86A8E7;
+}
+
+/* ================================= */
+/* Formatação home-page */
+/* ================================= */
+
+header.header-home-page{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5vw;
+    /* padding: 10px; */
+    text-align: center;
+    
+    background-image: linear-gradient(120deg,gray, black, gray);
+}
+
+.link-bar-home-page{
+    width: 100%;
+    overflow: auto;
+}
+
+.link-bar-home-page a{
+    padding: 1vw 0;
+    float: left;
+    width: 50%;
+    text-align: center;
+    transition: all 0.3s ease;
+    
+    font-size: 3vw;
+    text-decoration: none;
+
+    color: white;
+}
+
+.link-cor-home-page:hover{
+    background-image: linear-gradient(120deg, #D16BA5, #86A8E7, #5FFBF1);
+    color: black;
+}
+
+.link-peb-home-page:hover{
+    background-image: linear-gradient(120deg, gray, white, gray);
+    color: black;
+}

@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a.link-home{
+    text-decoration: none;
+    color: white;
+}
+a.link-home:hover{
+    color: black;
+}
+
+/* ================================= */
+/* Formatação das DIVs do corpo */
+/* ================================= */
+img{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 30px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 5px;
+    background-color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;
+   text-align: center;
+
+   margin-top: 30px;
+}
+
+/* efeitos hover */
+.quadrado {
+    transition: transform .3s;
+}
+
+.quadrado:hover {
+    transform: scale(1.3);
+}
+
+footer{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.8rem;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(120deg, #D16BA5, #86A8E7, #5FFBF1);
+    color: white;
+}
+
+.link-insta{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* ================================= */
+/* Formatação peb-page */
+/* ================================= */
+
+header.header-cor-page{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5vw;
+    /* padding: 10px; */
+    text-align: center;
+    background-image: linear-gradient(120deg, #D16BA5, #86A8E7, #5FFBF1);
+    color: black;
+}
+
+.link-bar-cor-page{
+    width: 100%;
+    overflow: auto;
+}
+
+.link-bar-cor-page a{
+    padding: 1vw 0;
+    float: left;
+    width: 50%;
+    text-align: center;
+    transition: all 0.3s ease;
+    color:white;
+    font-size: 3vw;
+    text-decoration: none;
+}
+
+.link-cor-cor-page:hover{
+    background-image: linear-gradient(120deg, #D16BA5, #86A8E7, #5FFBF1);
+    color: black;
+}
+
+.link-peb-cor-page:hover{
+    background-image: linear-gradient(120deg, gray, white, gray);
+    color: black;
+}
